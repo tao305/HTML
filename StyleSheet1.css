@@ -1,0 +1,58 @@
+﻿header {
+    background-color: slategrey;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+body {
+    background-color: lightyellow;
+    widows: 100px;
+    margin: 180px;
+
+}
+
+nav ul li {
+    display: inline-flex;
+    padding: 2px;
+    margin-left: 40px;
+
+}
+
+article {
+    float: left;
+    padding: 30px;
+    width: 70%;
+    background-color: lightblue;
+    height: 100;
+    margin-left: 100px;
+}
+
+.maps {
+    widows: 300px;
+    display: inline-flex;
+    direction: initial;
+    text-emphasis: 12;
+    color: grey;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin: 20px;
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+    width: 200px;
+    height: 100;
+}
