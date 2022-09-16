@@ -1,32 +1,38 @@
 ﻿header {
-    background-color: slategrey;
+    background-color: rgb(18, 153, 183);
     padding: 20px;
     text-align: center;
     font-size: 35px;
     color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px;
+    position: relative; top: -90px;
+
 }
 
 body {
-    background-color: lightyellow;
+    background-color: black;
     widows: 100px;
     margin: 180px;
-
-}
+    color: white;
+  }
 
 nav ul li {
     display: inline-flex;
     padding: 2px;
-    margin-left: 40px;
-
+    margin-left: 80px;
+position: relative; top: -50px;
 }
 
 article {
     float: left;
     padding: 30px;
     width: 70%;
-    background-color: lightblue;
+    background-color: black;
     height: 100;
-    margin-left: 100px;
+    margin-left: 120px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px;
 }
 
 .maps {
@@ -41,7 +47,7 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 70%;
-    margin: 20px;
+    margin-left: 120px;
 }
 
 td,
@@ -55,4 +61,8 @@ tr:nth-child(even) {
     background-color: white;
     width: 200px;
     height: 100;
+}
+
+#reg-form{
+margin-left: 140px;
 }
